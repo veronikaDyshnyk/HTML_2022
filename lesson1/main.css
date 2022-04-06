@@ -1,0 +1,28 @@
+img{
+    width: 400px;
+}
+
+h1{
+    color: white;
+    background: #f1d092;
+}
+
+h2{
+    background: #f5df21;
+}
+
+a{
+    color: #bccbfd;
+}
+
+p{
+    color: white;
+    background: #888484;
+}
+
+ul{
+    background: silver;
+}
+li{
+    background: #f5df21;
+}
