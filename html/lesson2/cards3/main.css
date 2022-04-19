@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-bloc{
+    height: 400px;
+    width: 700px;
+    background: #bccbfd;
+    display: flex;
+
+}
+
+
+.left-container, .right-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.left-container{
+    margin-right: 5px;
+}
+
+
+.right-container{
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+.card{
+    width: 300px;
+    height: 100px;
+    background: aliceblue;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+
+}
+
+
+.fa-globe{
+    width: 70px;
+
+    font-size: 40px;
+    color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    width: 230px;
+}
+
+.title{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: #f5df21;
+    text-transform: uppercase;
+
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.text{
+    color: silver;
+    font-size: 14px;
+
+}

@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+.wrap{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 200px;
+    height: 300px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+}
+.fa-quote-right{
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    color: gainsboro;
+    font-size: 30px;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: #efc066;
+    font-family: Century fantasy;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text{
+    color: gainsboro;
+    font-family: Candara, sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 80%;
+
+}
+.link{
+    width: 65%;
+    height: 35px;
+    background: #8ca6fc;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+    text-decoration: none;
+    color: gainsboro;
+
+
+}
