@@ -179,7 +179,7 @@
 //     this.footsize = footsize;
 //
 // }
-//
+
 // class Prince {
 //     constructor(name, age, findshoe) {
 //         this.name = name;
