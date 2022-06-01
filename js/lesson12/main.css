@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.post {
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #888484;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post:hover {
+    background: #d8e4ef;
+    transition: .3s;
+    transform: rotateY(10grad);
+}
+
+.post h3 {
+    margin: 0;
+}
+
+.post h4 {
+    height: 50px;
+}
+
+.comment{
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid grey;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment h3{
+    margin: 0;
+}
+
+.comment h4{
+    height: 20px;
+}
+
+.comment h5{
+height: 20px;
+}
+
+.comment:hover{
+    background: #e0e2fd;
+    transition: .3s;
+    /*transform: rotateY(10grad);*/
+    transform: rotateX(10grad);
+}
